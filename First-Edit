@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-width=1.0">
+    <title>Vivid Pro Auto Spa Ceramic Coating Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- Header -->
+
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <img class="logo" id="header-img" src="https://images.squarespace-cdn.com/content/v1/653ff01ba240fd485b5ecf36/df471101-f696-4fdf-8fd5-ea375712d81c/Vivid+Pro+Auto+Spa+Logo-Stacked-Black-Square.jpg?format=1500w" alt="Vivid Pro Black Logo">
+  <ul>
+    <li>
+      <a class="nav-link" href="#benefits">Benefits</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#how-it-works">How it Works</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#pricing">Pricing</a>
+    </li>
+    </ul>
+    <button class="btn">Schedule</button>
+    </nav>
+
+<!-- Email Form -->
+
+<div class="form">
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+  <h1>Professional, Ceramic Coatings</h1></br>
+  <p class="email-p">Brought to you by, Vivid Pro Auto Spa. Your local Professional, Mobile Detailer.</p>
+  <input name="email" id="email" type="email" placeholder="johnsmith@gmail.com">
+  <label for="submit"><input id="submit" value="Submit" type="submit"></label>
+  </form>
+  </div>
+
+<!-- Benefits -->
+
+<section id="benefits" class="benefits" href="#benefits">
+  <div class="hydrophobics" id="hydrophobics"><img src="https://cdn-icons-png.flaticon.com/128/2792/2792706.png" width="110" alt="water droplets">
+  </div>
+  <div class="hydrophobics-text">
+    <h2>Hydrophobic Properties</h2>
+    <p>Ceramic coatings provide exceptional hydrophobic benefits by creating a durable, nano-ceramic layer on the vehicle's surface that repels water, dirt, and contaminants. This layer minimizes water spots and helps prevent grime from adhering, making cleaning significantly easier. </p>
+  </div>
+  <div class="superior-protection" id="superior-protection"><img src="https://cdn-icons-png.flaticon.com/128/2100/2100165.png" width="110" alt="uv ray protection icon">
+  </div>
+  <div class="superior-protection-text">
+    <h2>Superior Protection</h2>
+    <p>They protect against harmful elements like bird droppings, acid rain, UV rays, and road salts, which can damage paint. </p>
+  </div>
+   <div class="enhanced-appearance" id="enhanced-appearance"><img src="https://cdn-icons-png.flaticon.com/128/3808/3808030.png" width="110" alt="shiny car icon">
+  </div>
+  <div class="enhanced-appearance-text">
+    <h2>Enhanced Appearance</h2>
+    <p>Ceramic coatings enhance a vehicle's appearance by adding a deep, glossy finish and preserving the paint's color and vibrancy over time.</p>
+  </div>
+<div class="how-it-works" id="how-it-works">
+  </div>
+<div class="pricing" id="pricing">
+  </div>
+  </section>
+
+<!-- How it works -->
+
+<section id="how-it-works">
+<h1>How it Works</h1>
+<div class="youtube-video">
+<iframe 
+id="video"
+width="1280"
+height= "720"
+src="https://www.youtube.com/embed/MC3_HpAlNI4?si=m4kQZp2Ljk72A1We" 
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
+</section>
+
+<!-- Pricing -->
+
+<section id="pricing">
+  <h1>Pricing</h1>
+  <div class="urable">
+<iframe 
+src="https://app.urable.com/virtual-shop/5SWIejKvv7PRlyk1LtZH" 
+frameborder="0" 
+width="1280"
+height= "720">
+</iframe>
+</div>
+</section>
+
+
+</body>
+</html>
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background: 
+}
+
+#nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  position: fixed;
+  background: white;
+}
+
+.logo {
+  width: 180px;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  padding-right: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background: green;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.form {
+  padding: 130px 0 0 0;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-p {
+  padding: 0 0 25px 0;
+}
+
+.benefits {
+  padding: 10px 40px 0 0;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto-fit 3fr;
+  gap: 20px;
+}
+
+.hydrophobics {
+  padding: 10px;
+}
+
+.hydrophobics-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin: 0 65px 0 0;
+  text-align: left;
+}
+
+.superior-protection {
+  padding: 10px;
+}
+
+.superior-protection-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin: 0 45px 0 0;
+  text-align: left;
+}
+
+.enhanced-appearance {
+  padding: 10px;
+}
+
+.enhanced-appearance-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin: 0 45px 0 0;
+  text-align: left;
+}
+
+.youtube-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.urable {
+  margin: 25px auto;
+}
+
+@media (max-width: 650px) {
+  .youtube-video, .urable {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-items: center;
+  }
+}
